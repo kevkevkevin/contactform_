@@ -31,32 +31,35 @@
     <div id="forms">
         <div id="form_">
             <h2>Contact Us</h2>
-              <form action="#">
-                 <div class="form-group">
-                  <label for="name">Name:</label>
-                  <input type="name" class="form-control" id="name" placeholder="Your Name" name="name">
+             <div class="send-email">
+              <!--Contact Form-->
+              <form class="contact-form" action="contactme/general-form.php" method="POST" enctype="multipart/form-data">
+
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input id="contact-name" type="text" name="name" class="form-control" placeholder="Enter your name *" required="required" data-error="Name is required.">
                 </div>
                 <div class="form-group">
-                  <label for="email">Email:</label>
-                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    <label>E-mail:</label>
+                  <input id="contact-email" type="text" name="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Email is required.">
                 </div>
                 <div class="form-group">
-                    <label for="subj"><span>Subject</span>
-                        <select name="sbj" class="form-control" id="slct_bg">
-                            <option class="special" value="Appointment">Appointment</option>
+                    <label><span>Subject</span>
+                        <select name="subject" class="form-control" id="slct_bg" name="message" rows="4" required="required" data-error="Please,leave us a message.">
+                            <option class="special" value="Appointment">Inquiry</option>
                             <option class="special" value="Interview">Interview</option>
-                            <option class="special" value="Regarding a post">Regarding a post</option>
+                            <option class="special" value="Appointment">Web Design/Development</option>
+                            <option class="special" value="Regarding a post">IOS/ANDROID App Design & Development</option>
                         </select>
                     </label>
                 </div>
                 <div class="form-group">
-                    <label for="email">Message:</label>
-                    <textarea class="form-control" rows="5" id="message" placeholder="Leave your message here*" required></textarea>
+                    <label>Message:</label>
+                  <textarea id="form-message" name="message" class="form-control" placeholder="Leave a message for us *" rows="2" required="required" data-error="Please,leave us a message."></textarea>
                 </div>
-                <a href=""><div class="button_">
-                    Submit
-                </div> </a>
-              </form>
+              </form><!--Contact Form End-->
+              <button class="button_" type="submit">Submit</button>
+            </div>
         </div>
     </div>
 
