@@ -3,8 +3,8 @@
 error_reporting(E_ALL);
 
 $configs['from_name']				= 'Block Studio';								
-$configs['from_address']			= 'info@block-s.com';							
-$configs['to_addresses']			= array('info@block-s.com');	
+$configs['from_address']			= 'kevin.n@block-s.com';							
+$configs['to_addresses']			= array('kevin.n@block-s.com');	
 
 
 
@@ -32,8 +32,8 @@ $configs['user_ip_address']			= false;
 $configs['smtp_enabled']			= true;										
 $configs['smtp_host']				= 'smtp1.servage.net';											
 $configs['smtp_auth']				= true;											
-$configs['smtp_username']			= 'info@block-s.com';											
-$configs['smtp_password']			= 'Blockx2018x';											
+$configs['smtp_username']			= 'kevin.n@block-s.com';											
+$configs['smtp_password']			= 'kevkevkevin01';											
 $configs['smtp_secure']				= 'tls';										
 $configs['smtp_port']				= 25;										
 $configs['upload_dir']				= 'uploads/';									
