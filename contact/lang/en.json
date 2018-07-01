@@ -1,0 +1,31 @@
+{
+	"success_text" : "Message successfully sent. We'll get back to you soon",
+	"something_wrong" : "Error, something went wrong!",
+	"required_field" : "{{1}} required",
+	"number_invalid" : "Invalid {{1}}. Only numbers are accepted",
+	"email_invalid" : "Invalid {{1}}",
+	"url_invalid" : "Invalid {{1}}. Check the url",
+	"file" : {
+		"error" : "Error while uploading: {{1}}",
+		"type" : "Invalid file type: {{1}}",
+		"size" : "Your file(s) exceed the {{1}}MB limit, you should use <a href=\"https://www.wetransfer.com/\" target=\"_blank\">WeTransfer</a>",
+		"server_limit" : "Your file is bigger than your hosting provider allows",
+		"generic" : "Error with the file {{1}}: {{2}}"
+	},
+	"recaptcha" : {
+		"empty" : "Please complete the CAPTCHA",
+		"bot" : "Google reCAPTCHA error: {{1}}",
+		"no_response" : "No response from <a href=\"{{1}}\" target=\"_blank\">Google reCAPTCHA</a><br />Please check if your hosting provider is blocking cURL or file_get_contents() functions"
+	},
+	"emails_info" : {
+		"error" : "Error while sending: {{1}}",
+		"subject" : "New message from the Contact Form",
+		"body" : "Hello,<br />a new message has been received from the Contact Form of your website.<br /><br />Here are the data:<br />",
+		"body_ip_address" : "IP address: {{1}}",
+		"confirmation" : {
+			"subject" : "We received your message",
+			"body" : "Thanks!<br />Your message has been received. We'll reply to you as soon as possible.<br />Have a Great Day.",
+			"body_html_copy" : "<br /><br />Data summary:<br />"
+		}
+	}
+}

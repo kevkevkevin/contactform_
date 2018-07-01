@@ -1,0 +1,31 @@
+{
+	"success_text" : "Votre message a été envoyé avec succès. Nous allons vous répondre dans les meilleurs délais",
+	"something_wrong" : "Une erreur est survenue",
+	"required_field" : "Champ obligatorie: {{1}}",
+	"number_invalid" : "{{1}} n'est pas valide. Veuillez n'entrer que des chiffres",
+	"email_invalid" : "{{1}} n'est pas valide",
+	"url_invalid" : "{{1}} n'est pas valide. Vérifiez l'url",
+	"file" : {
+		"error" : "Une erreur s'est produite lors le chargement du fichier: {{1}}",
+		"type" : "Le type du fichier n'est pas valide: {{1}}",
+		"size" : "Vos fichiers dépasse la limite de {{1}}MB, nous vous recommandons d'utiliser <a href=\"https://www.wetransfer.com/\" target=\"_blank\">WeTransfer</a>",
+		"server_limit" : "Le fichier chargé dépasse la limite autorisée par votre Fournisseur d'accès à Internet",
+		"generic" : "Une erreur est survenue avec le fichier {{1}}: {{2}}"
+	},
+	"recaptcha" : {
+		"empty" : "Veuillez remplir le CAPTCHA",
+		"bot" : "Une erreur est survenue avec le reCAPTCHA: {{1}}",
+		"no_response" : "Aucun mot de <a href=\"{{1}}\" target=\"_blank\">Google reCAPTCHA</a><br />Vérifiez que votre Fournisseur d'accès à Internet ne bloque pas les fonctions cURL et file_get_contents()"
+	},
+	"emails_info" : {
+		"error" : "Une erreur est survenue lors de l'envoi: {{1}}",
+		"subject" : "Vous avez reçu un nouveau message dans le formulaire de contact",
+		"body" : "Bonjour,<br />un nouveau message a été reçu du formulaire de contact de votre site.<br /><br />Voici les données:<br />",
+		"body_ip_address" : "Adresse IP: {{1}}",
+		"confirmation" : {
+			"subject" : "Votre message a bien été envoyé",
+			"body" : "Merci!<br />Nous avons reçu votre message. Nous vous répondrons dans les meilleurs délais.",
+			"body_html_copy" : "<br /><br />Résumé des données:<br />"
+		}
+	}
+}
