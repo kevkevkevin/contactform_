@@ -19,7 +19,4 @@ $fields[] = array('name' => 'message',		'display_name' => 'Message',        'typ
 // Init the functions
 require_once 'functions.php';
 
-// Start processing
-require_once 'process-upload.php';
-
 ?>
